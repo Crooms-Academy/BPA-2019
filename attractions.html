@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
-<body>
+<body onload="onLoad()">
 <div class="gradient"></div>
 <div class="background"></div>
 <h1 class="logo">BPA NLC</h1>
@@ -24,13 +24,18 @@
     <h4 class="rightinfo">Address: 1400 Constitution Ave NW, Washington, DC. Hours: 10 a.m. - 5:30 p.m.
             </h4>
     <h6 class="rightdesc">*Visitors are required to walk through a metal detector and bags will be screened.</h6>
+    <br>
+    <hr>
+    <br>
+    <br>
 </div>
 
 <div class="left">
-        <img src="" class="leftimage" />
-        <h3 class="lefttitle"></h3>
-        <h4 class="leftinfo"></h4>
-        <h6 class="leftdesc"></h6>
+        <img src="africamuseum.png" class="leftimage" />
+        <h3 class="lefttitle">Air and Space Museum</h3>
+        <h4 class="leftinfo">Address: Independence Avenue and 6th Street, SW Washington, DC. Hours: 10 a.m. - 5:30 p.m.
+                </h4>
+        <h6 class="leftdesc">*Visitors are required to walk through a metal detector and bags will be screened.</h6>
     </div>
 
 </div>
@@ -40,6 +45,12 @@
 </footer>
 
 <script>
+
+function onLoad(){
+    document.getElementById("smithsonian").style.backgroundColor = "white";
+    document.getElementById("smithsonian").style.color = "black";
+}
+
 function smithClicked(){
     document.getElementById("smithsonian").style.backgroundColor = "white";
     document.getElementById("smithsonian").style.color = "black";
