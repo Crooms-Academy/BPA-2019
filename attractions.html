@@ -3,11 +3,57 @@
 <html>
 
 <head>
-
+        <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
-    
+<div class="gradient"></div>
+<div class="background"></div>
+<h1 class="logo">BPA NLC</h1>
+<h1 class="attractionstitle">Attractions</h1>
+<button class="membutton1" id="smithsonian" onclick="smithClicked()">Smithsonian</button>
+<button class="membutton2" id="memorials" onclick="memClicked()">Memorials</button>
+<button class="membutton3" id="government" onclick="govClicked()">Government</button>
+
+<footer>
+    &copy; Copyright Crooms Academy of Information Technology
+</footer>
+
+<script>
+function smithClicked(){
+    document.getElementById("smithsonian").style.backgroundColor = "white";
+    document.getElementById("smithsonian").style.color = "black";
+
+    document.getElementById("government").style.backgroundColor = "";
+    document.getElementById("government").style.color = "white";
+
+    document.getElementById("memorials").style.backgroundColor = "";
+    document.getElementById("memorials").style.color = "white";
+}
+
+function memClicked(){
+    document.getElementById("memorials").style.backgroundColor = "white";
+    document.getElementById("memorials").style.color = "black";
+
+    document.getElementById("smithsonian").style.backgroundColor = "";
+    document.getElementById("smithsonian").style.color = "white";
+
+    document.getElementById("government").style.backgroundColor = "";
+    document.getElementById("government").style.color = "white";
+}
+
+function govClicked(){
+    document.getElementById("government").style.backgroundColor = "white";
+    document.getElementById("government").style.color = "black";
+
+    document.getElementById("smithsonian").style.background = "";
+    document.getElementById("smithsonian").style.color = "white";
+
+    document.getElementById("memorials").style.backgroundColor = "";
+    document.getElementById("memorials").style.color = "white";
+}
+</script>
+
 </body>
 
 </html>
