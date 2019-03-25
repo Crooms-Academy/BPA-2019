@@ -239,9 +239,9 @@ footer{
 }
 
 .righttitle{
-    margin-top: 60px;
+    margin-top: 20px;
     font-size: 40px;
-    width: 60%;
+    width: 40%;
     position: absolute;
     
 }
@@ -277,9 +277,9 @@ hr{
 }
 
 .lefttitle{
-    margin-top: 60px;
+    margin-top: 20px;
     font-size: 40px;
-    width: 60%;
+    width: 40%;
     position: absolute;
     margin-left: 45%;
 }
