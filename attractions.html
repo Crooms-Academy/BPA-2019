@@ -7,9 +7,9 @@
 </head>
 
 <body onload="onLoad()">
-<div class="gradient"></div>
-<div class="background"></div>
-<h1 class="logo">BPA NLC</h1>
+<div class="attrgradient"></div>
+<div class="attrbackground"></div>
+<a href="index.html"><h1 class="logo2">BPA NLC</h1></a>
 <h1 class="attractionstitle">Attractions</h1>
 <button class="membutton1" id="smithsonian" onclick="smithClicked()">Smithsonian</button>
 <button class="membutton2" id="memorials" onclick="memClicked()">Memorials</button>
@@ -99,6 +99,10 @@
 function onLoad(){
     document.getElementById("smithsonian").style.backgroundColor = "white";
     document.getElementById("smithsonian").style.color = "black";
+
+    document.getElementById("smithsonianpage").style.display = "block";
+    document.getElementById("governmentpage").style.display = "none";
+    document.getElementById("memorialspage").style.display = "none";
 }
 
 function smithClicked(){
