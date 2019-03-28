@@ -173,7 +173,7 @@ h2{
     margin-top: -400px;
 }
 
-p{
+.phome{
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     width: 30%;
@@ -275,7 +275,22 @@ footer{
 
 .right{
     margin-left: 5%;
+	margin-top: 240px;
     height: 100px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.rightfirst{
+    margin-left: 5%;
+    height: 100px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.rightlast{
+    margin-left: 5%;
+    height: 100px;
+	margin-top: 240px;
+	margin-bottom: 240px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -373,4 +388,15 @@ hr{
 
 .table{
     margin-top: 50px;
+}
+
+.monumentsection{
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: normal;
+	text-align: center;
+
+	color: #3D3D3D;
 }
