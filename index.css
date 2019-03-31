@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 
 body, html{
     margin: 0;
@@ -454,7 +455,7 @@ hr{
 
 .dresscodeimage{
   width:100%;
-  margin: 5%
+  margin: 5%;
   margin-top:30px;
 }
 
@@ -519,6 +520,18 @@ th, td {
   .centerimage{
       width: 100%;
   }
+
+  .foodname{
+      font-size: 30px;
+      font-family: 'Raleway', sans-serif;
+      padding-left: 10px;
+      margin-top: 5px;
+  }
+
+  .type{
+      font-size: 25px;
+      font-family: 'Montserrat', sans-serif;
+  }
   
   tr:nth-child(even) {background-color: #f2f2f2;}
 
@@ -550,6 +563,48 @@ th, td {
     font-family: 'Raleway', sans-serif;
 }
 
+.foodleft{
+    width: 40%;
+    height: 350px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+
+.foodright{
+    width: 40%;
+    height: 350px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 55%;
+    margin-top: -360px;
+}
+
+.foodimage{
+    width: 100%;
+}
+
+.foodaddress{
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -33px;
+}
+
+.location{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foodhours{
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -35px;
+}
   
   @media screen and (max-width: 950px) {
     .topnav a {display: none;}
