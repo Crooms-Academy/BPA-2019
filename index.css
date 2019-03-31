@@ -564,6 +564,49 @@ th, td {
         margin-left: 20%;
     }
 
+    .righttitle{
+        font-size: 35px;
+    }
+
+    .rightinfo{
+        margin-top: 150px;
+    }
+
+    .rightdesc{
+        margin-top: 250px;
+    }
+
+    .lefttitle{
+        font-size: 35px;
+    }
+
+    .leftinfo{
+        margin-top: 150px;
+    }
+
+    .leftdesc{
+        margin-top: 250px;
+    }
+
+    .membutton1{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: -300px;
+    }
+
+    .membutton2{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: -250px;
+    }
+
+    .membutton3{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: -200px;
+    }
+
+
    
   }
   
