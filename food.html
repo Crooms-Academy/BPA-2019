@@ -4,10 +4,24 @@
 
 <head>
         <link rel="stylesheet" type="text/css" href="index.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body onload="onLoad()">
+
+        <div class="topnav" id="myTopnav">
+                <a href="javascript:void(0);" class="close" onclick="myFunction()">
+                <i class="fa fa-times"></i>
+                </a>
+                <a href="attractions.html" class="first">Attractions</a>
+                <a href="food.html">Food</a>
+                <a href="transportation.html">Transport</a>
+                <a href="dress.html">Dress</a>
+                <a href="javascript:void(0);" class="menu" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+                 </div>
+
 <div class="attrgradient"></div>
 <div class="attrbackground"></div>
 <a href="index.html"><h1 class="logo2">BPA NLC</h1></a>
@@ -80,8 +94,13 @@
 
 <script>
 
-function onLoad(){
-
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }
 </script>
 
