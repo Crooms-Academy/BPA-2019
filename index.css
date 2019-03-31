@@ -198,9 +198,10 @@ footer{
     position: absolute;
     margin-top: -350px;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Raleway', sans-serif;
-    margin-left: 40%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .foodtitle{
@@ -210,7 +211,8 @@ footer{
     color: white;
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
-    margin-left: 48%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .dresstitle{
@@ -220,7 +222,8 @@ footer{
     color: white;
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
-    margin-left: 40%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .transportationtitle{
@@ -230,7 +233,8 @@ footer{
     color: white;
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
-    margin-left: 42%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .membutton1{
@@ -238,7 +242,7 @@ footer{
     background: none;
     color: white;
     margin-top: -200px;
-    margin-left: 20%;
+    margin-left: 28%;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -266,7 +270,7 @@ footer{
     background: none;
     color: white;
     margin-top: -200px;
-    margin-left: 42%;
+    margin-left: 45%;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -511,8 +515,40 @@ th, td {
     text-align: left;
     padding: 8px;
   }
+
+  .centerimage{
+      width: 100%;
+  }
   
   tr:nth-child(even) {background-color: #f2f2f2;}
+
+  .transportation p{
+      text-align: center;
+      width: 80%;
+      margin-left: 10%;
+      font-family: 'Raleway', sans-serif;
+  }
+
+  .transportation h1{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.transportation h2{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.transportation h3{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Raleway', sans-serif;
+}
 
   
   @media screen and (max-width: 950px) {
