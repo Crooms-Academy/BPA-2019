@@ -4,7 +4,7 @@
 body, html{
     margin: 0;
     padding: 0;
-    height: 3200px;
+    height: 1200px;
 }
 
 .background{
@@ -192,6 +192,7 @@ footer{
     font-size: 20px;
     color: #3D3D3D;
     padding-left: 50px;
+    margin-top: 300px;
 }
 
 .attractionstitle{
@@ -563,9 +564,42 @@ th, td {
     font-family: 'Raleway', sans-serif;
 }
 
+.email{
+    background-color: #d3d3d3;
+    border: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    width: 60%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.newsintro{
+    font-size: 30px;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+
+.submit{
+    background-color: black;
+    color: white;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
 .foodleft{
     width: 40%;
-    height: 350px;
+    height: 450px;
     border-width: 5px;
     border-color: black;
     border-style: solid;
@@ -575,12 +609,12 @@ th, td {
 
 .foodright{
     width: 40%;
-    height: 350px;
+    height: 450px;
     border-width: 5px;
     border-color: black;
     border-style: solid;
     margin-left: 55%;
-    margin-top: -360px;
+    margin-top: -460px;
 }
 
 .foodimage{
@@ -604,6 +638,10 @@ th, td {
     padding-left: 10px;
     font-family: 'Raleway', sans-serif;
     margin-top: -35px;
+}
+
+input:focus{
+    outline: none;
 }
   
   @media screen and (max-width: 950px) {
@@ -697,7 +735,48 @@ th, td {
         margin-top: -200px;
     }
 
-
+    .foodleft{
+        width: 40%;
+        height: 350px;
+        border-width: 5px;
+        border-color: black;
+        border-style: solid;
+        margin-left: 5%;
+        margin-top: 100px;
+    }
+    
+    .foodright{
+        width: 40%;
+        height: 350px;
+        border-width: 5px;
+        border-color: black;
+        border-style: solid;
+        margin-left: 55%;
+        margin-top: -360px;
+    }
+    
+    .foodimage{
+        width: 100%;
+    }
+    
+    .foodaddress{
+        font-size: 20px;
+        padding-left: 10px;
+        font-family: 'Raleway', sans-serif;
+        margin-top: -33px;
+    }
+    
+    .location{
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .foodhours{
+        font-size: 20px;
+        padding-left: 10px;
+        font-family: 'Raleway', sans-serif;
+        margin-top: -35px;
+    }
    
   }
   
