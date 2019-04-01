@@ -542,7 +542,8 @@ th, td {
   }
 
   .centerimage{
-      width: 100%;
+      width: 70%;
+      margin-left: 20%;
   }
 
   .foodname{
