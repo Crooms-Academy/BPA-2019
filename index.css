@@ -677,7 +677,7 @@ th, td {
 
 .foodleft{
     width: 40%;
-    height: 450px;
+    height: 520px;
     border-width: 5px;
     border-color: black;
     border-style: solid;
@@ -687,12 +687,12 @@ th, td {
 
 .foodright{
     width: 40%;
-    height: 450px;
+    height: 520px;
     border-width: 5px;
     border-color: black;
     border-style: solid;
     margin-left: 55%;
-    margin-top: -460px;
+    margin-top: -530px;
 }
 
 .foodimage{
