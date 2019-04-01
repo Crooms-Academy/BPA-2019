@@ -375,7 +375,7 @@ footer{
 .rightlast{
     margin-left: 5%;
     height: 100px;
-	margin-top: 240px;
+	margin-top: 320px;
 	margin-bottom: 240px;
     font-family: 'Raleway', sans-serif;
 }
@@ -587,7 +587,7 @@ th, td {
 
   .centerimage{
       width: 70%;
-      margin-left: 10%;
+      margin-left: 0%;
   }
 
   .foodname{
@@ -876,7 +876,7 @@ body a{
     .rightlast{
         margin-left: 5%;
         height: 100px;
-        margin-top: 240px;
+        margin-top: 280px;
         margin-bottom: 240px;
         font-family: 'Raleway', sans-serif;
     }
