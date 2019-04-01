@@ -7,6 +7,10 @@ body, html{
     height: 1200px;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .background{
     background-image: url("background.png");
     width: 100%;
