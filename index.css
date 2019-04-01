@@ -607,6 +607,11 @@ th, td {
       margin-left: 20%;
   }
   
+  .metromap{
+	  width: 60%;
+	  margin-left: 20%;
+  }
+  
   tr:nth-child(even) {background-color: #f2f2f2;}
 
   .transportation p{
