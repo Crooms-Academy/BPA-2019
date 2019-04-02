@@ -144,6 +144,20 @@ iframe{
     margin-left: 5%;
 }
 
+.one2{
+	width: 25%;
+    height: 400px;
+    background-color: #ECECEC;
+    margin-left: 23%;
+}
+
+.two2{
+    width: 25%;
+    height: 400px;
+    background-color: #ECECEC;
+    margin-left: 5%;
+}
+
 .three{
     width: 25%;
     height: 400px;
@@ -539,11 +553,11 @@ hr{
     color: black;
     position: absolute;
     z-index: 500;
-    margin-left: 70%;
+    margin-left: 68%;
     margin-top: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 8px;
-    width: 30%;
+    width: 40%;
   }  
 
 
